@@ -1,0 +1,32 @@
+{
+    "name": "dduers/t3-sitepackage-onemorephoto",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 CMS Sitepackage: Onemorephoto",
+    "homepage": "https://docs.typo3.org/permalink/t3sitepackage:start",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "keywords": [
+        "TYPO3 CMS"
+    ],
+    "require": {
+        "typo3/cms-core": "^14.3",
+        "typo3/cms-backend": "^14.3",
+        "typo3/cms-extbase": "^14.3",
+        "typo3/cms-rte-ckeditor": "^14.3",
+        "typo3/cms-form": "^14.3",
+        "typo3/cms-filelist": "^14.3",
+        "bk2k/bootstrap-package": "^16.0",
+        "georgringer/news": "^14.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dduers\\T3SitepackageOnemorephoto\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3_sitepackage_onemorephoto"
+        }
+    }
+}

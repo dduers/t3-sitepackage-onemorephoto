@@ -1,0 +1,58 @@
+categories:
+  T3SitepackageOnemorephoto:
+    label: "Sitepackage (Onemorephoto)"
+  T3SitepackageOnemorephoto.templates:
+    label: "Templates"
+    parent: T3SitepackageOnemorephoto
+  T3SitepackageOnemorephoto.layout:
+    label: "Layout"
+    parent: T3SitepackageOnemorephoto
+  T3SitepackageOnemorephoto.menus:
+    label: "Menus"
+    parent: T3SitepackageOnemorephoto
+  T3SitepackageOnemorephoto.permissions:
+    label: "Permissions"
+    parent: T3SitepackageOnemorephoto
+
+settings:
+  T3SitepackageOnemorephoto.templateRootPath:
+    label: "Template root path"
+    category: T3SitepackageOnemorephoto.templates
+    description: "Path to the templates root directory."
+    type: string
+    default: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/"
+
+  T3SitepackageOnemorephoto.logo:
+    label: "Logo"
+    category: T3SitepackageOnemorephoto.layout
+    description: "Path to the logo of the site package."
+    type: string
+    default: "EXT:t3_sitepackage_onemorephoto/Resources/Public/Images/logo.svg"
+
+  T3SitepackageOnemorephoto.logoAlt:
+    label: "Logo Alt text"
+    category: T3SitepackageOnemorephoto.layout
+    description: "Alternative text of the logo for the visually impaired"
+    type: string
+    default: "Logo"
+
+  T3SitepackageOnemorephoto.favicon:
+    label: "Favicon"
+    description: "This icon is displayed in search engine results and in the browser tab"
+    category: T3SitepackageOnemorephoto.layout
+    type: string
+    default: "EXT:t3_sitepackage_onemorephoto/Resources/Public/Icons/favicon.svg"
+
+  T3SitepackageOnemorephoto.groupIdForNewPages:
+    label: "Group ID for new pages"
+    category: T3SitepackageOnemorephoto.permissions
+    description: "Set the default group ID for new pages."
+    type: int
+    default: 0
+
+  T3SitepackageOnemorephoto.userIdForNewPages:
+    label: "User ID for new pages"
+    category: T3SitepackageOnemorephoto.permissions
+    description: "Set the default user ID for new pages."
+    type: int
+    default: 0

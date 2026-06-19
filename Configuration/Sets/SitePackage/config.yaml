@@ -1,0 +1,8 @@
+name: dduers/t3-sitepackage-onemorephoto
+label: "TYPO3 CMS Sitepackage: Onemorephoto"
+dependencies:
+  - typo3/form
+  - typo3/seo-sitemap
+  - typo3/email
+  - georgringer/news-twb5
+  - bootstrap-package/full

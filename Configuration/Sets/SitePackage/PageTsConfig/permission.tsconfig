@@ -1,0 +1,9 @@
+TCEMAIN.permissions {
+    # ID of the backend user that will own new pages
+    userid = {$T3SitepackageOnemorephoto.userIdForNewPages}
+    # ID of the backend group that will own new pages
+    groupid = {$T3SitepackageOnemorephoto.groupIdForNewPages}
+    # Optional: Explicitly set permissions for user and group
+    user = show, editcontent, edit, delete, new
+    group = show, editcontent, edit, new
+}

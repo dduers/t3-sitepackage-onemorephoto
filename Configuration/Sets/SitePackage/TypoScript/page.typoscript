@@ -1,0 +1,25 @@
+page = PAGE
+page {
+
+    // 10 = PAGEVIEW
+    // 10 {
+    //     paths {
+    //         0 = EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/
+    //         10 = {$T3SitepackageOnemorephoto.templateRootPath}
+    //     }
+    //     dataProcessing {
+    //         # makes content elements available as {content} in Fluid template
+    //         10 = page-content
+    //     }
+    // }
+
+    shortcutIcon = {$T3SitepackageOnemorephoto.favicon}
+
+    includeCSS {
+        main = EXT:t3_sitepackage_onemorephoto/Resources/Public/Css/main.css
+    }
+    includeJSFooter {
+        main = EXT:t3_sitepackage_onemorephoto/Resources/Public/JavaScript/main.js
+        # custom.type = module
+    }
+}

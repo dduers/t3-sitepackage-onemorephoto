@@ -1,0 +1,15 @@
+styles:
+  templates:
+    layoutRootPath: EXT:t3_sitepackage_onemorephoto/Resources/Private/ContentElements/Layouts/
+    partialRootPath: EXT:t3_sitepackage_onemorephoto/Resources/Private/ContentElements/Partials/
+    templateRootPath: EXT:t3_sitepackage_onemorephoto/Resources/Private/ContentElements/Templates/
+email:
+  templateRootPaths:
+    100: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Email/Templates/"
+  layoutRootPaths:
+    100: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Email/Layouts/"
+  partialRootPaths:
+    100: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Email/Partials/"
+  format: "html"
+redirects:
+  autoCreateRedirects: false
