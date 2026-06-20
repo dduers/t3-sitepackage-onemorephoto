@@ -1,0 +1,10 @@
+name: dduers/t3-sitepackage-onemorephoto-formset-contact
+label: "Sitepackage Onemorephoto - Contact"
+# Load order: lower = loaded first. Core base set uses priority 10.
+# Extension sets should use > 10 (default: 100) to overlay the base.
+priority: 200
+
+# Form configuration goes directly below the metadata:
+persistenceManager:
+  allowedExtensionPaths:
+    10: "1:/onemorephoto/forms"
