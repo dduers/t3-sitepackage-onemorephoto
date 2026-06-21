@@ -7,4 +7,4 @@ priority: 200
 # Form configuration goes directly below the metadata:
 persistenceManager:
   allowedExtensionPaths:
-    10: "1:/onemorephoto/forms/"
+    1234: "1:/onemorephoto/forms/"
