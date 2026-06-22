@@ -6,12 +6,12 @@ TYPO3:
           formElementsDefinition:
             Form:
               renderingOptions:
-                templateRootPaths:
-                  10: "EXT:form/Resources/Private/Frontend/Templates/"
-                  200: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Templates/"
-                partialRootPaths:
-                  10: "EXT:form/Resources/Private/Frontend/Partials/"
-                  200: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Partials/"
-                layoutRootPaths:
-                  10: "EXT:form/Resources/Private/Frontend/Layouts/"
-                  200: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Layouts/"
+                # templateRootPaths:
+                #   10: "EXT:form/Resources/Private/Frontend/Templates/"
+                #   200: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Templates/"
+                # partialRootPaths:
+                #   10: "EXT:form/Resources/Private/Frontend/Partials/"
+                #   200: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Partials/"
+                # layoutRootPaths:
+                #   10: "EXT:form/Resources/Private/Frontend/Layouts/"
+                #   200: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Layouts/"
