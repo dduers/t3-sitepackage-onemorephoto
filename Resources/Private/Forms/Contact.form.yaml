@@ -1,0 +1,110 @@
+
+renderingOptions:
+  submitButtonLabel: Senden
+type: Form
+identifier: onemorephoto-contact-de
+label: onemorephoto-contact-de
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: 'One More Photo: Kontaktanfrage'
+      recipients:
+        info@onemorephoto.ch: ''
+      senderAddress: noreply@onemorephoto.ch
+      senderName: '{text-1}'
+      addHtmlPart: true
+      attachUploads: true
+      translation:
+        language: ''
+      replyToRecipients:
+        '{email-1}': '{text-1}'
+    identifier: EmailToReceiver
+  -
+    options:
+      message: 'Danke für Ihre Nachricht. Sie werden eine Antwort erhalten.'
+      contentElementUid: ''
+    identifier: Confirmation
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Neue Seite'
+    type: Page
+    identifier: page-1
+    label: ''
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: Name
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Bitte geben Sie Ihren Namen ein'
+            -
+              code: 1221560718
+              message: 'Bitte geben Sie Ihren Namen ein'
+            -
+              code: 1347992400
+              message: 'Bitte geben Sie Ihren Namen ein'
+            -
+              code: 1347992453
+              message: 'Bitte geben Sie Ihren Namen ein'
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Email
+        identifier: email-1
+        label: Email-Adresse
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Bitte geben Sie Ihre Email-Adresse ein'
+            -
+              code: 1221560718
+              message: 'Bitte geben Sie Ihre Email-Adresse ein'
+            -
+              code: 1347992400
+              message: 'Bitte geben Sie Ihre Email-Adresse ein'
+            -
+              code: 1347992453
+              message: 'Bitte geben Sie Ihre Email-Adresse ein'
+        validators:
+          -
+            identifier: EmailAddress
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: Nachricht
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Bitte geben Sie eine Nachticht ein'
+            -
+              code: 1221560718
+              message: 'Bitte geben Sie eine Nachticht ein'
+            -
+              code: 1347992400
+              message: 'Bitte geben Sie eine Nachticht ein'
+            -
+              code: 1347992453
+              message: 'Bitte geben Sie eine Nachticht ein'
+        validators:
+          -
+            identifier: NotEmpty
