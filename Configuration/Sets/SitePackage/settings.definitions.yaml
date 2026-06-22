@@ -15,12 +15,26 @@ categories:
     parent: T3SitepackageOnemorephoto
 
 settings:
-  T3SitepackageOnemorephoto.templateRootPath:
+  T3SitepackageOnemorephoto.view.templateRootPath:
     label: "Template root path"
     category: T3SitepackageOnemorephoto.templates
     description: "Path to the templates root directory."
     type: string
-    default: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/"
+    default: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/Templates/"
+
+  T3SitepackageOnemorephoto.view.partialRootPath:
+    label: "Partial root path"
+    category: T3SitepackageOnemorephoto.templates
+    description: "Path to the partial root directory."
+    type: string
+    default: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/Partials/"
+
+  T3SitepackageOnemorephoto.view.layoutRootPath:
+    label: "Layout root path"
+    category: T3SitepackageOnemorephoto.templates
+    description: "Path to the layout root directory."
+    type: string
+    default: "EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/Layouts/"
 
   T3SitepackageOnemorephoto.logo:
     label: "Logo"

@@ -1,1 +1,22 @@
 config.admPanel = 1
+
+plugin.tx_t3sitepackageonemorephoto {
+    mvc.callDefaultActionIfActionCantBeResolved = 1
+    view {
+        templateRootPaths {
+            0 = EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/Templates/
+            1 = {$T3SitepackageOnemorephoto.view.templateRootPath}
+        }
+        partialRootPaths {
+            0 = EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/Partials/
+            1 = {$T3SitepackageOnemorephoto.view.partialRootPath}
+        }
+        layoutRootPaths {
+            0 = EXT:t3_sitepackage_onemorephoto/Resources/Private/Site/Layouts/
+            1 = {$T3SitepackageOnemorephoto.view.layoutRootPath}
+        }
+    }
+    settings {
+        orderByAllowed = title,tstamp,date_release,crdate,username
+    }
+}
