@@ -30,7 +30,7 @@ plugin {
         }
         settings {
             yamlConfigurations {
-                110 = EXT:t3_sitepackage_onemorephoto/Configuration/Form/Setup.yaml
+                110 = EXT:t3_sitepackage_onemorephoto/Configuration/Form/setup.yaml
             }
         }
         view {
