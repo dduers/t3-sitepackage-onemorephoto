@@ -1,6 +1,7 @@
 <?php
 
 use Dduers\T3SitepackageOnemorephoto\Controller\ContactFormController;
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
 
 /**

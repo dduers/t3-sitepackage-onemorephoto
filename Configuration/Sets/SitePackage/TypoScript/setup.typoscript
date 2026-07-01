@@ -23,29 +23,4 @@ plugin {
             orderByAllowed = title,tstamp,date_release,crdate,username
         }
     }
-
-    tx_form {
-        mvc {
-            callDefaultActionIfActionCantBeResolved = 1
-        }
-        settings {
-            yamlConfigurations {
-                110 = EXT:t3_sitepackage_onemorephoto/Configuration/Form/setup.yaml
-            }
-        }
-        view {
-            layoutRootPaths {
-                0 = EXT:form/Resources/Private/Frontend/Layouts/
-                10 = EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Layouts/
-            }
-            partialRootPaths {
-                0 = EXT:form/Resources/Private/Frontend/Partials/
-                10 = EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Partials/
-            }
-            templateRootPaths {
-                0 = EXT:form/Resources/Private/Frontend/Templates/
-                10 = EXT:t3_sitepackage_onemorephoto/Resources/Private/Extensions/Cms/Form/Templates/
-            }
-        }
-    }
 }
