@@ -1,25 +1,18 @@
 console.log('sitepackage: onemorephoto (main.js)');
 
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function () {
 
     // make home active, when on the start page
     if (window.location.pathname !== '/') {
-        $('.nav-item:first-child').removeClass('active');
+        document.querySelector('.nav-item:first-child').classList.remove('active');
     } else {
-        $('.nav-item:first-child').addClass('active');
+        document.querySelector('.nav-item:first-child').classList.add('active');
     }
 
-    // // make card links look like buttons
-    // $('.card-link').addClass('btn btn-default');
-
     // prevent right click on images
-    $(document).on('contextmenu', 'img', function () {
-        return false;
+    document.addEventListener('contextmenu', function (e) {
+        if (e.target.tagName === 'IMG') {
+            e.preventDefault();
+        }
     });
-
-    // // remove xing button from news article
-    // $('.news .shariff-button.xing').remove();
-
-    // // make news share buttons grey
-    // $('.news .shariff .theme-color').addClass('theme-grey').removeClass('theme-color');
 });
