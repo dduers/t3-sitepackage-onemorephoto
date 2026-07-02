@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // make home active, when on the start page
     if (window.location.pathname !== '/') {
-        document.querySelector('.nav-item:first-child').classList.remove('active');
+        document.querySelector("#nav-item-92").classList.remove('active');
     } else {
-        document.querySelector('.nav-item:first-child').classList.add('active');
+        document.querySelector("#nav-item-92").classList.add('active');
     }
 
     // prevent right click on images
