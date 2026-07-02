@@ -1,0 +1,107 @@
+/**
+	CARD
+**/
+.card {
+    background-color: #fbfbfb;
+}
+
+/**
+	NEWS
+**/
+.news.news-single .article .row .col-md-4 .thumbnail img.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.news .news-list-view .row.news-list-item .extra,
+.news.news-single .article .extra,
+.news.news-single .article .btn.btn-default {
+    margin-bottom: 35px;
+}
+
+.news .news-list-view .row.news-list-item .col-md-3 a img.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.news .news-list-view .row.news-list-item {
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #fbfbfb !important;
+    border: 1px solid #dddddd !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0.25rem;
+}
+
+.news.news-single {
+    background-color: #fbfbfb !important;
+    border: 1px solid #dddddd !important;
+    border-radius: 0.25rem;
+    padding: 20px;
+}
+
+.news time {
+    color: #990000;
+}
+
+.news .news-list-view .f3-widget-paginator li {
+    padding: 10px;
+    display: inline;
+}
+
+.news .news-list-view .f3-widget-paginator {
+    padding-left: 0 !important;
+}
+
+.news .news-list-view .f3-widget-paginator li.current {
+    background-color: #eaebec;
+}
+
+.news.news-single .article .thumbnail {
+    margin-bottom: 10px;
+}
+
+/**
+	CAROUSEL
+**/
+.carousel .carousel-inner .item .carousel-content .carousel-content-inner .carousel-text-inner h1 {
+    font-weight: bold;
+    background-color: #fefefe !important;
+    color: #666666 !important;
+    opacity: 0.66;
+    padding: 5px;
+}
+
+.carousel .carousel-inner .item .carousel-content .carousel-content-inner .carousel-text-inner h2 {
+    background-color: #fefefe !important;
+    color: #666666 !important;
+    opacity: 0.66;
+    padding: 5px;
+}
+
+/**
+	FOOTER
+**/
+footer.bp-page-footer {
+    margin-top: 70px;
+}
+
+footer .footer-section {
+    background-color: #f9f9f9;
+}
+
+footer .footer-section .section-row .section-column .frame,
+footer .footer-section .frame {
+    background: none;
+}
+
+footer .footer-section:nth-child(1) {
+    border-top: 1px solid #eeeeee;
+}
+
+footer .footer-section h5,
+footer .footer-section p {
+    color: #666666;
+}
